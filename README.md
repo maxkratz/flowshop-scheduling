@@ -13,9 +13,9 @@ Java-project for solving a flowshop-scheduling problem (FSP) based on the algori
 ## How to run
 - See example in [Main.java](https://github.com/maxkratz/flowshop-scheduling/blob/master/flowshop-scheduling/src/Main.java)
 	- Create an object of [NEH.java](https://github.com/maxkratz/flowshop-scheduling/blob/master/flowshop-scheduling/src/NEH.java)
-	- Create an arraylist of int-arrays
-	- Create an int-array for each job or read the job-times from a textdocument
+	- Create an (empty) arraylist of int-arrays
+	- Create an int-array (containing the information of each runtime) for each job or read the job-times from a textdocument
 	- Add the job-arrays to the arraylist
 	- run the **calculateNEHOrder(joblist)** method to calculate the Order of the NEH algorithm
-	- run the **calculateNTotalMakespan(results)** method to calculate the total makespan of a joblist
+	- run the **calculateNTotalMakespan(results)** method to calculate the total makespan of the joblist
 - There is a folder with the java doc :-)
