@@ -86,9 +86,13 @@ public class NEH {
 	/**
 	 * Searches for the biggest two elements and puts them in the best order.
 	 * 
-	 * @param sortierteListe
+	 * @param sortedList
 	 * 			descending sorted list with all jobs
-	 * @return Liste
+	 * @param first
+	 * 			the first element
+	 * @param second
+	 * 			the second element
+	 * @return List
 	 * 			list with the biggest two elements (sorted)
 	 * 
 	 */
